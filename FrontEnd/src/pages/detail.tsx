@@ -1,8 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Contact } from "../DTO/ContactDTO";
-import PersonPinIcon from "@mui/icons-material/PersonPin";
-import DeleteIcon from "@mui/icons-material/Delete";
 
 export default function Detail() {
   const [contact, setContact] = useState<Contact>({} as Contact);
